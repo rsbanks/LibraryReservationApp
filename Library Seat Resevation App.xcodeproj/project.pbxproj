@@ -35,8 +35,6 @@
 		3B12159525E7385900440812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12159325E7385900440812 /* Main.storyboard */; };
 		3B12159725E7385B00440812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B12159625E7385B00440812 /* Assets.xcassets */; };
 		3B12159A25E7385B00440812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12159825E7385B00440812 /* LaunchScreen.storyboard */; };
-		3B1215A525E7385B00440812 /* Library_Seat_Resevation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1215A425E7385B00440812 /* Library_Seat_Resevation_AppTests.swift */; };
-		3B1215B025E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1215AF25E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift */; };
 		3B59F43F26236B7C00B98759 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F43E26236B7C00B98759 /* ProfileViewController.swift */; };
 		3B59F44D262376B900B98759 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F44B262376B900B98759 /* ReservationTableViewCell.swift */; };
 		3B59F44E262376B900B98759 /* ReservationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B59F44C262376B900B98759 /* ReservationTableViewCell.xib */; };
@@ -100,11 +98,7 @@
 		3B12159925E7385B00440812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B12159B25E7385B00440812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1215A025E7385B00440812 /* Library Seat Resevation AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library Seat Resevation AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B1215A425E7385B00440812 /* Library_Seat_Resevation_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_Seat_Resevation_AppTests.swift; sourceTree = "<group>"; };
-		3B1215A625E7385B00440812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1215AB25E7385B00440812 /* Library Seat Resevation AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library Seat Resevation AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B1215AF25E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_Seat_Resevation_AppUITests.swift; sourceTree = "<group>"; };
-		3B1215B125E7385B00440812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B59F43E26236B7C00B98759 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B59F44B262376B900B98759 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
 		3B59F44C262376B900B98759 /* ReservationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationTableViewCell.xib; sourceTree = "<group>"; };
@@ -212,8 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				3B12158C25E7385900440812 /* Library Seat Resevation App */,
-				3B1215A325E7385B00440812 /* Library Seat Resevation AppTests */,
-				3B1215AE25E7385B00440812 /* Library Seat Resevation AppUITests */,
 				3B12158B25E7385900440812 /* Products */,
 				B8FD4DFA28D16A0600352948 /* Pods */,
 				4C253DFD492644DB77FADCE0 /* Frameworks */,
@@ -247,24 +239,6 @@
 				3B12159B25E7385B00440812 /* Info.plist */,
 			);
 			path = "Library Seat Resevation App";
-			sourceTree = "<group>";
-		};
-		3B1215A325E7385B00440812 /* Library Seat Resevation AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				3B1215A425E7385B00440812 /* Library_Seat_Resevation_AppTests.swift */,
-				3B1215A625E7385B00440812 /* Info.plist */,
-			);
-			path = "Library Seat Resevation AppTests";
-			sourceTree = "<group>";
-		};
-		3B1215AE25E7385B00440812 /* Library Seat Resevation AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3B1215AF25E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift */,
-				3B1215B125E7385B00440812 /* Info.plist */,
-			);
-			path = "Library Seat Resevation AppUITests";
 			sourceTree = "<group>";
 		};
 		3B85953926214DC800B3B98D /* Floors */ = {
@@ -580,7 +554,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1215A525E7385B00440812 /* Library_Seat_Resevation_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +561,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1215B025E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
