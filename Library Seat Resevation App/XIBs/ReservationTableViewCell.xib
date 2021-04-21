@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReservationTableViewCell" rowHeight="102" id="KGk-i7-Jjw" customClass="ReservationTableViewCell" customModule="Library_Seat_Resevation_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uiy-3b-5h6">
+                        <rect key="frame" x="30" y="4" width="276" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04/22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBQ-3d-Ukl">
+                                <rect key="frame" x="0.0" y="35.5" width="60" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="1Ot-ex-Cej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MdB-lM-lI6">
+                                <rect key="frame" x="70" y="10" width="136" height="74"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seat 15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5z-Cn-5lb">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="18.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="North Carrels" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ul-z7-z9V">
+                                        <rect key="frame" x="0.0" y="18.5" width="136" height="18.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2nd Floor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYc-gc-Viv">
+                                        <rect key="frame" x="0.0" y="37" width="136" height="18.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00 - 17:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVm-2W-OCu">
+                                        <rect key="frame" x="0.0" y="55.5" width="136" height="18.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8p-Jh-K86">
+                                <rect key="frame" x="216" y="32" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.43137254899999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="oC2-Or-M3v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8mS-cj-fAX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="g8p-Jh-K86" secondAttribute="trailing" id="IFy-Oe-JgN"/>
+                            <constraint firstItem="IBQ-3d-Ukl" firstAttribute="leading" secondItem="Uiy-3b-5h6" secondAttribute="leading" id="L67-um-dZY"/>
+                            <constraint firstItem="MdB-lM-lI6" firstAttribute="top" secondItem="Uiy-3b-5h6" secondAttribute="top" constant="10" id="On6-R9-d2U"/>
+                            <constraint firstItem="IBQ-3d-Ukl" firstAttribute="centerY" secondItem="Uiy-3b-5h6" secondAttribute="centerY" id="QU7-Aw-3om"/>
+                            <constraint firstItem="g8p-Jh-K86" firstAttribute="centerY" secondItem="Uiy-3b-5h6" secondAttribute="centerY" id="W0u-Cc-etI"/>
+                            <constraint firstAttribute="bottom" secondItem="MdB-lM-lI6" secondAttribute="bottom" constant="10" id="cYS-AD-MRt"/>
+                            <constraint firstItem="g8p-Jh-K86" firstAttribute="leading" secondItem="MdB-lM-lI6" secondAttribute="trailing" constant="10" id="kc7-kx-VU6"/>
+                            <constraint firstItem="MdB-lM-lI6" firstAttribute="leading" secondItem="IBQ-3d-Ukl" secondAttribute="trailing" constant="10" id="xd4-Dc-xHY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Uiy-3b-5h6" secondAttribute="trailing" constant="30" id="8nY-8l-Sjv"/>
+                    <constraint firstItem="Uiy-3b-5h6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="Do5-Si-Dcm"/>
+                    <constraint firstItem="Uiy-3b-5h6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Hn9-bb-MSf"/>
+                    <constraint firstAttribute="bottom" secondItem="Uiy-3b-5h6" secondAttribute="bottom" constant="4" id="Kay-II-tg1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cancelButton" destination="g8p-Jh-K86" id="16Q-M7-KrH"/>
+                <outlet property="dateLabel" destination="IBQ-3d-Ukl" id="hPw-fW-D7B"/>
+                <outlet property="floorLabel" destination="gYc-gc-Viv" id="C1w-w4-yj1"/>
+                <outlet property="locationLabel" destination="1Ul-z7-z9V" id="l72-ef-WF3"/>
+                <outlet property="seatLabel" destination="m5z-Cn-5lb" id="d1p-MY-TUn"/>
+                <outlet property="timeLabel" destination="QVm-2W-OCu" id="u34-xh-2Eq"/>
+            </connections>
+            <point key="canvasLocation" x="143" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>

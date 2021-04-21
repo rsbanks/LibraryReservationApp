@@ -3,10 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FF2C500C0E5959F08422A75 /* Pods_Library_Seat_Resevation_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9FFA4FAF4CC0320710EF6C /* Pods_Library_Seat_Resevation_App.framework */; };
+		3B0F96C7261A48BF00989444 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F96C6261A48BF00989444 /* User.swift */; };
+		3B0F96CC261A4DC100989444 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F96CB261A4DC100989444 /* Reservation.swift */; };
+		3B0F96D1261A5A5200989444 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F96D0261A5A5200989444 /* Extensions.swift */; };
+		3B11A070260FCDB10028B4BE /* SeatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A06E260FCDB10028B4BE /* SeatTableViewCell.swift */; };
+		3B11A071260FCDB10028B4BE /* SeatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11A06F260FCDB10028B4BE /* SeatTableViewCell.xib */; };
+		3B11A077260FD0420028B4BE /* SelectSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A076260FD0420028B4BE /* SelectSeatViewController.swift */; };
+		3B11A080260FD1180028B4BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A07F260FD1180028B4BE /* Constants.swift */; };
+		3B11A086260FD2820028B4BE /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A085260FD2820028B4BE /* Seat.swift */; };
+		3B11A08E260FD7380028B4BE /* SecondFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A08D260FD7380028B4BE /* SecondFloorViewController.swift */; };
+		3B11A093260FF7530028B4BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B11A092260FF7530028B4BE /* GoogleService-Info.plist */; };
+		3B11A10326110D740028B4BE /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A10126110D740028B4BE /* TimeCollectionViewCell.swift */; };
+		3B11A10426110D740028B4BE /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11A10226110D740028B4BE /* TimeCollectionViewCell.xib */; };
+		3B11A10D261151C70028B4BE /* SeatDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11A10B261151C50028B4BE /* SeatDetailViewController.xib */; };
+		3B11A10E261151C70028B4BE /* SeatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A10C261151C60028B4BE /* SeatDetailViewController.swift */; };
+		3B11A113261167610028B4BE /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A112261167610028B4BE /* RoundedViews.swift */; };
+		3B11A13D26122A100028B4BE /* FloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A13C26122A100028B4BE /* FloorViewController.swift */; };
+		3B11A14526122AEC0028B4BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A14426122AEC0028B4BE /* SignUpViewController.swift */; };
+		3B11A15026122C760028B4BE /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A14F26122C760028B4BE /* LocalStorageService.swift */; };
+		3B11A15826122DC00028B4BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A15726122DC00028B4BE /* LoginViewController.swift */; };
+		3B11A17A261252360028B4BE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A179261252360028B4BE /* Utilities.swift */; };
+		3B11A17F261264690028B4BE /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A17E261264690028B4BE /* BookingViewController.swift */; };
 		3B12158E25E7385900440812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12158D25E7385900440812 /* AppDelegate.swift */; };
 		3B12159025E7385900440812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12158F25E7385900440812 /* SceneDelegate.swift */; };
 		3B12159225E7385900440812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12159125E7385900440812 /* ViewController.swift */; };
@@ -15,6 +37,16 @@
 		3B12159A25E7385B00440812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12159825E7385B00440812 /* LaunchScreen.storyboard */; };
 		3B1215A525E7385B00440812 /* Library_Seat_Resevation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1215A425E7385B00440812 /* Library_Seat_Resevation_AppTests.swift */; };
 		3B1215B025E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1215AF25E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift */; };
+		3B59F43F26236B7C00B98759 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F43E26236B7C00B98759 /* ProfileViewController.swift */; };
+		3B59F44D262376B900B98759 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F44B262376B900B98759 /* ReservationTableViewCell.swift */; };
+		3B59F44E262376B900B98759 /* ReservationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B59F44C262376B900B98759 /* ReservationTableViewCell.xib */; };
+		3B8595122620CCCA00B3B98D /* FirstFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8595112620CCCA00B3B98D /* FirstFloorViewController.swift */; };
+		3B85951A26211D4700B3B98D /* ThirdFourthFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85951926211D4700B3B98D /* ThirdFourthFloorViewController.swift */; };
+		3B85952526214D8200B3B98D /* AFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85952426214D8200B3B98D /* AFloorViewController.swift */; };
+		3B85952A26214D9800B3B98D /* BFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85952926214D9800B3B98D /* BFloorViewController.swift */; };
+		3B85953226214DA900B3B98D /* CFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85953126214DA900B3B98D /* CFloorViewController.swift */; };
+		428F2DA803D912875978740C /* Pods_Library_Seat_Resevation_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46790CFF05DE9BB356E6AA38 /* Pods_Library_Seat_Resevation_AppTests.framework */; };
+		AF7817CC52E3CAA1CDB3FEAA /* Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110DBA0E586E674DAB5D547 /* Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +67,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B37690417781AB9E53937CA /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3110DBA0E586E674DAB5D547 /* Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CA7D51D0978A215CA569A4 /* Pods-Library Seat Resevation AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation AppTests.release.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation AppTests/Pods-Library Seat Resevation AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B0F96C6261A48BF00989444 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B0F96CB261A4DC100989444 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		3B0F96D0261A5A5200989444 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3B11A06E260FCDB10028B4BE /* SeatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatTableViewCell.swift; sourceTree = "<group>"; };
+		3B11A06F260FCDB10028B4BE /* SeatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeatTableViewCell.xib; sourceTree = "<group>"; };
+		3B11A076260FD0420028B4BE /* SelectSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatViewController.swift; sourceTree = "<group>"; };
+		3B11A07F260FD1180028B4BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B11A085260FD2820028B4BE /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		3B11A08D260FD7380028B4BE /* SecondFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFloorViewController.swift; sourceTree = "<group>"; };
+		3B11A092260FF7530028B4BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B11A10126110D740028B4BE /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B11A10226110D740028B4BE /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		3B11A10B261151C50028B4BE /* SeatDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeatDetailViewController.xib; sourceTree = "<group>"; };
+		3B11A10C261151C60028B4BE /* SeatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatDetailViewController.swift; sourceTree = "<group>"; };
+		3B11A112261167610028B4BE /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		3B11A13C26122A100028B4BE /* FloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorViewController.swift; sourceTree = "<group>"; };
+		3B11A14426122AEC0028B4BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3B11A14F26122C760028B4BE /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		3B11A15726122DC00028B4BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B11A179261252360028B4BE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3B11A17E261264690028B4BE /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		3B12158A25E7385900440812 /* Library Seat Resevation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Seat Resevation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B12158D25E7385900440812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B12158F25E7385900440812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +105,20 @@
 		3B1215AB25E7385B00440812 /* Library Seat Resevation AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library Seat Resevation AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1215AF25E7385B00440812 /* Library_Seat_Resevation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_Seat_Resevation_AppUITests.swift; sourceTree = "<group>"; };
 		3B1215B125E7385B00440812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B59F43E26236B7C00B98759 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3B59F44B262376B900B98759 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		3B59F44C262376B900B98759 /* ReservationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationTableViewCell.xib; sourceTree = "<group>"; };
+		3B8595112620CCCA00B3B98D /* FirstFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFloorViewController.swift; sourceTree = "<group>"; };
+		3B85951926211D4700B3B98D /* ThirdFourthFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFourthFloorViewController.swift; sourceTree = "<group>"; };
+		3B85952426214D8200B3B98D /* AFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFloorViewController.swift; sourceTree = "<group>"; };
+		3B85952926214D9800B3B98D /* BFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFloorViewController.swift; sourceTree = "<group>"; };
+		3B85953126214DA900B3B98D /* CFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFloorViewController.swift; sourceTree = "<group>"; };
+		40FB78686E96E13476BCB3A8 /* Pods-Library Seat Resevation App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation App.debug.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation App/Pods-Library Seat Resevation App.debug.xcconfig"; sourceTree = "<group>"; };
+		465BE3A1BAAA5C2BD94F8043 /* Pods-Library Seat Resevation AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation AppTests/Pods-Library Seat Resevation AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46790CFF05DE9BB356E6AA38 /* Pods_Library_Seat_Resevation_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_Seat_Resevation_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF8DF6018EBAC9B5C1AEBD6 /* Pods-Library Seat Resevation App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation App.release.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation App/Pods-Library Seat Resevation App.release.xcconfig"; sourceTree = "<group>"; };
+		63845AE9CF9FF0B6B8C29EF4 /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB9FFA4FAF4CC0320710EF6C /* Pods_Library_Seat_Resevation_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library_Seat_Resevation_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF2C500C0E5959F08422A75 /* Pods_Library_Seat_Resevation_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428F2DA803D912875978740C /* Pods_Library_Seat_Resevation_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +142,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7817CC52E3CAA1CDB3FEAA /* Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B11A062260FCD680028B4BE /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3B11A10C261151C60028B4BE /* SeatDetailViewController.swift */,
+				3B11A10B261151C50028B4BE /* SeatDetailViewController.xib */,
+				3B11A06E260FCDB10028B4BE /* SeatTableViewCell.swift */,
+				3B11A06F260FCDB10028B4BE /* SeatTableViewCell.xib */,
+				3B11A10126110D740028B4BE /* TimeCollectionViewCell.swift */,
+				3B11A10226110D740028B4BE /* TimeCollectionViewCell.xib */,
+				3B59F44B262376B900B98759 /* ReservationTableViewCell.swift */,
+				3B59F44C262376B900B98759 /* ReservationTableViewCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		3B11A075260FD0060028B4BE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B85953926214DC800B3B98D /* Floors */,
+				3B11A076260FD0420028B4BE /* SelectSeatViewController.swift */,
+				3B12159125E7385900440812 /* ViewController.swift */,
+				3B11A13C26122A100028B4BE /* FloorViewController.swift */,
+				3B11A14426122AEC0028B4BE /* SignUpViewController.swift */,
+				3B11A15726122DC00028B4BE /* LoginViewController.swift */,
+				3B11A17E261264690028B4BE /* BookingViewController.swift */,
+				3B59F43E26236B7C00B98759 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B11A07E260FD10B0028B4BE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B11A07F260FD1180028B4BE /* Constants.swift */,
+				3B0F96D0261A5A5200989444 /* Extensions.swift */,
+				3B11A112261167610028B4BE /* RoundedViews.swift */,
+				3B11A179261252360028B4BE /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3B11A084260FD2780028B4BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B11A085260FD2820028B4BE /* Seat.swift */,
+				3B0F96C6261A48BF00989444 /* User.swift */,
+				3B0F96CB261A4DC100989444 /* Reservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B11A14E26122C520028B4BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B11A14F26122C760028B4BE /* LocalStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		3B12158125E7385900440812 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +215,8 @@
 				3B1215A325E7385B00440812 /* Library Seat Resevation AppTests */,
 				3B1215AE25E7385B00440812 /* Library Seat Resevation AppUITests */,
 				3B12158B25E7385900440812 /* Products */,
+				B8FD4DFA28D16A0600352948 /* Pods */,
+				4C253DFD492644DB77FADCE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +235,15 @@
 			children = (
 				3B12158D25E7385900440812 /* AppDelegate.swift */,
 				3B12158F25E7385900440812 /* SceneDelegate.swift */,
-				3B12159125E7385900440812 /* ViewController.swift */,
+				3B11A084260FD2780028B4BE /* Models */,
+				3B11A07E260FD10B0028B4BE /* Helpers */,
+				3B11A14E26122C520028B4BE /* Services */,
+				3B11A062260FCD680028B4BE /* XIBs */,
+				3B11A075260FD0060028B4BE /* ViewControllers */,
 				3B12159325E7385900440812 /* Main.storyboard */,
 				3B12159625E7385B00440812 /* Assets.xcassets */,
 				3B12159825E7385B00440812 /* LaunchScreen.storyboard */,
+				3B11A092260FF7530028B4BE /* GoogleService-Info.plist */,
 				3B12159B25E7385B00440812 /* Info.plist */,
 			);
 			path = "Library Seat Resevation App";
@@ -128,6 +267,42 @@
 			path = "Library Seat Resevation AppUITests";
 			sourceTree = "<group>";
 		};
+		3B85953926214DC800B3B98D /* Floors */ = {
+			isa = PBXGroup;
+			children = (
+				3B85951926211D4700B3B98D /* ThirdFourthFloorViewController.swift */,
+				3B11A08D260FD7380028B4BE /* SecondFloorViewController.swift */,
+				3B8595112620CCCA00B3B98D /* FirstFloorViewController.swift */,
+				3B85952426214D8200B3B98D /* AFloorViewController.swift */,
+				3B85952926214D9800B3B98D /* BFloorViewController.swift */,
+				3B85953126214DA900B3B98D /* CFloorViewController.swift */,
+			);
+			path = Floors;
+			sourceTree = "<group>";
+		};
+		4C253DFD492644DB77FADCE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FFA4FAF4CC0320710EF6C /* Pods_Library_Seat_Resevation_App.framework */,
+				3110DBA0E586E674DAB5D547 /* Pods_Library_Seat_Resevation_App_Library_Seat_Resevation_AppUITests.framework */,
+				46790CFF05DE9BB356E6AA38 /* Pods_Library_Seat_Resevation_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8FD4DFA28D16A0600352948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40FB78686E96E13476BCB3A8 /* Pods-Library Seat Resevation App.debug.xcconfig */,
+				4EF8DF6018EBAC9B5C1AEBD6 /* Pods-Library Seat Resevation App.release.xcconfig */,
+				1B37690417781AB9E53937CA /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.debug.xcconfig */,
+				63845AE9CF9FF0B6B8C29EF4 /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.release.xcconfig */,
+				465BE3A1BAAA5C2BD94F8043 /* Pods-Library Seat Resevation AppTests.debug.xcconfig */,
+				32CA7D51D0978A215CA569A4 /* Pods-Library Seat Resevation AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1215B425E7385B00440812 /* Build configuration list for PBXNativeTarget "Library Seat Resevation App" */;
 			buildPhases = (
+				F42A01E7F49A3EE0A4946DE5 /* [CP] Check Pods Manifest.lock */,
 				3B12158625E7385900440812 /* Sources */,
 				3B12158725E7385900440812 /* Frameworks */,
 				3B12158825E7385900440812 /* Resources */,
+				DC5F6565BAFA88414DF1A580 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1215B725E7385B00440812 /* Build configuration list for PBXNativeTarget "Library Seat Resevation AppTests" */;
 			buildPhases = (
+				2D4CD91DD102E6356F8E0D86 /* [CP] Check Pods Manifest.lock */,
 				3B12159C25E7385B00440812 /* Sources */,
 				3B12159D25E7385B00440812 /* Frameworks */,
 				3B12159E25E7385B00440812 /* Resources */,
@@ -170,9 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1215BA25E7385B00440812 /* Build configuration list for PBXNativeTarget "Library Seat Resevation AppUITests" */;
 			buildPhases = (
+				83DDA55731A0921975553B26 /* [CP] Check Pods Manifest.lock */,
 				3B1215A725E7385B00440812 /* Sources */,
 				3B1215A825E7385B00440812 /* Frameworks */,
 				3B1215A925E7385B00440812 /* Resources */,
+				9DE5048797F392A15D3C137D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +412,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B12159A25E7385B00440812 /* LaunchScreen.storyboard in Resources */,
+				3B11A10426110D740028B4BE /* TimeCollectionViewCell.xib in Resources */,
+				3B59F44E262376B900B98759 /* ReservationTableViewCell.xib in Resources */,
 				3B12159725E7385B00440812 /* Assets.xcassets in Resources */,
+				3B11A071260FCDB10028B4BE /* SeatTableViewCell.xib in Resources */,
+				3B11A093260FF7530028B4BE /* GoogleService-Info.plist in Resources */,
 				3B12159525E7385900440812 /* Main.storyboard in Resources */,
+				3B11A10D261151C70028B4BE /* SeatDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +438,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D4CD91DD102E6356F8E0D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Library Seat Resevation AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DDA55731A0921975553B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE5048797F392A15D3C137D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests/Pods-Library Seat Resevation App-Library Seat Resevation AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5F6565BAFA88414DF1A580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App/Pods-Library Seat Resevation App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App/Pods-Library Seat Resevation App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Library Seat Resevation App/Pods-Library Seat Resevation App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42A01E7F49A3EE0A4946DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Library Seat Resevation App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B12158625E7385900440812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B11A10E261151C70028B4BE /* SeatDetailViewController.swift in Sources */,
+				3B11A13D26122A100028B4BE /* FloorViewController.swift in Sources */,
+				3B0F96CC261A4DC100989444 /* Reservation.swift in Sources */,
+				3B85953226214DA900B3B98D /* CFloorViewController.swift in Sources */,
+				3B11A113261167610028B4BE /* RoundedViews.swift in Sources */,
+				3B11A15826122DC00028B4BE /* LoginViewController.swift in Sources */,
+				3B11A077260FD0420028B4BE /* SelectSeatViewController.swift in Sources */,
+				3B85952526214D8200B3B98D /* AFloorViewController.swift in Sources */,
 				3B12159225E7385900440812 /* ViewController.swift in Sources */,
+				3B11A17A261252360028B4BE /* Utilities.swift in Sources */,
+				3B59F43F26236B7C00B98759 /* ProfileViewController.swift in Sources */,
+				3B11A086260FD2820028B4BE /* Seat.swift in Sources */,
 				3B12158E25E7385900440812 /* AppDelegate.swift in Sources */,
+				3B85951A26211D4700B3B98D /* ThirdFourthFloorViewController.swift in Sources */,
+				3B11A10326110D740028B4BE /* TimeCollectionViewCell.swift in Sources */,
+				3B8595122620CCCA00B3B98D /* FirstFloorViewController.swift in Sources */,
+				3B11A070260FCDB10028B4BE /* SeatTableViewCell.swift in Sources */,
+				3B59F44D262376B900B98759 /* ReservationTableViewCell.swift in Sources */,
+				3B11A17F261264690028B4BE /* BookingViewController.swift in Sources */,
+				3B85952A26214D9800B3B98D /* BFloorViewController.swift in Sources */,
 				3B12159025E7385900440812 /* SceneDelegate.swift in Sources */,
+				3B11A080260FD1180028B4BE /* Constants.swift in Sources */,
+				3B0F96D1261A5A5200989444 /* Extensions.swift in Sources */,
+				3B0F96C7261A48BF00989444 /* User.swift in Sources */,
+				3B11A14526122AEC0028B4BE /* SignUpViewController.swift in Sources */,
+				3B11A15026122C760028B4BE /* LocalStorageService.swift in Sources */,
+				3B11A08E260FD7380028B4BE /* SecondFloorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +745,7 @@
 		};
 		3B1215B525E7385B00440812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FB78686E96E13476BCB3A8 /* Pods-Library Seat Resevation App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +765,7 @@
 		};
 		3B1215B625E7385B00440812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF8DF6018EBAC9B5C1AEBD6 /* Pods-Library Seat Resevation App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +785,7 @@
 		};
 		3B1215B825E7385B00440812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465BE3A1BAAA5C2BD94F8043 /* Pods-Library Seat Resevation AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +808,7 @@
 		};
 		3B1215B925E7385B00440812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CA7D51D0978A215CA569A4 /* Pods-Library Seat Resevation AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +831,7 @@
 		};
 		3B1215BB25E7385B00440812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B37690417781AB9E53937CA /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +852,7 @@
 		};
 		3B1215BC25E7385B00440812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63845AE9CF9FF0B6B8C29EF4 /* Pods-Library Seat Resevation App-Library Seat Resevation AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

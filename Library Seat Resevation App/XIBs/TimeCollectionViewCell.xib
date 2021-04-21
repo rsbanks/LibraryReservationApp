@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TimeCollectionViewCell" id="gTV-IL-0wX" customClass="TimeCollectionViewCell" customModule="Library_Seat_Resevation_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MuJ-kP-a4M">
+                        <rect key="frame" x="4" y="4" width="62" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lN6-d8-3KI">
+                                <rect key="frame" x="0.0" y="5.5" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.78431372549019607" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lN6-d8-3KI" firstAttribute="leading" secondItem="MuJ-kP-a4M" secondAttribute="leading" id="HsV-vf-Sd1"/>
+                            <constraint firstItem="lN6-d8-3KI" firstAttribute="centerY" secondItem="MuJ-kP-a4M" secondAttribute="centerY" id="S2D-PM-ber"/>
+                            <constraint firstAttribute="trailing" secondItem="lN6-d8-3KI" secondAttribute="trailing" id="dTi-m0-MP5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MuJ-kP-a4M" secondAttribute="bottom" constant="4" id="Ams-o4-Grt"/>
+                <constraint firstItem="MuJ-kP-a4M" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="Cg9-Ng-UJC"/>
+                <constraint firstItem="MuJ-kP-a4M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="K93-X0-o4Z"/>
+                <constraint firstAttribute="trailing" secondItem="MuJ-kP-a4M" secondAttribute="trailing" constant="4" id="oyF-nY-whh"/>
+            </constraints>
+            <size key="customSize" width="70" height="60"/>
+            <connections>
+                <outlet property="backView" destination="MuJ-kP-a4M" id="JSZ-Nt-n8Z"/>
+                <outlet property="timeLabel" destination="lN6-d8-3KI" id="6aL-kd-FAd"/>
+            </connections>
+            <point key="canvasLocation" x="3" y="66"/>
+        </collectionViewCell>
+    </objects>
+</document>
